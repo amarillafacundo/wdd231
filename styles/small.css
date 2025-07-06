@@ -88,3 +88,22 @@ footer a {
     text-decoration: none;
     margin: 0 0.5rem;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) saturate(100%) invert(43%) sepia(58%) saturate(343%) hue-rotate(150deg);
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+    filter: none;
+}
