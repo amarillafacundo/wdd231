@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Facundo Amarilla's Course Home Page for WDD 231.">
+    <meta name="author" content="Facundo Amarilla">
+    <title>Facundo Amarilla | WDD 231</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap"rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css" media="screen and (min-width: 640px)">
+
+    <!-- Scripts -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" height="40">
+        <span>Facundo Amarilla</span>
+        <button id="menu" aria-label="Menu">☰</button>
+    </header>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>Courses</h2>
+            <div id="course-buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+            <div id="courses"></div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <p>Coming soon...</p>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm Facundo Amarilla from Argentina. This is my course homepage for WDD 231, part of my journey
+                into frontend development. 🚀</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/amarillafacundo" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/facundo-emanuel-amarilla/" target="_blank">LinkedIn</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Facundo Amarilla | Argentina</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+@media screen and (min-width: 640px) {
+    header {
+        justify-content: flex-start;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex !important;
+        flex-direction: row;
+        background-color: transparent;
+        margin-left: auto;
+    }
+
+    .navigation a {
+        border: none;
+        color: white;
+        padding: 0 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    #course-buttons {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: var(--primary-color);
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: var(--accent-color);
+    }
+}
