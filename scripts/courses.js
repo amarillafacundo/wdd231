@@ -47,6 +47,6 @@ cseBtn.addEventListener("click", () => {
     renderCourses(courses.filter(c => c.code.startsWith("CSE")));
 });
 
-// Load all courses on page load
+// Load all courses on page load //
 renderCourses(courses);
   
