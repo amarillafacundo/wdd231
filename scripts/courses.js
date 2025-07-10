@@ -20,11 +20,8 @@ function renderCourses(list) {
 
     list.forEach(course => {
         const card = document.createElement("div");
-        card.style.padding = "1rem";
-        card.style.margin = "0.5rem 0";
-        card.style.border = "1px solid #ccc";
-        card.style.borderRadius = "8px";
-        card.style.backgroundColor = course.completed ? "#d4edda" : "#f8d7da";
+        card.classList.add("course-card");
+        card.classList.add(course.completed ? "course-completed" : "course-incomplete");
 
         card.innerHTML = `<strong>${course.code}</strong>: ${course.name} — ${course.credits} credits`;
 

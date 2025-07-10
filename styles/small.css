@@ -105,3 +105,30 @@ footer a {
     transform: scale(1.1);
     filter: none;
 }
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+.navigation a.active {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+
+.course-card {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.course-completed {
+    background-color: #d4edda;  
+}
+
+.course-incomplete {
+    background-color: #f8d7da;
+}
