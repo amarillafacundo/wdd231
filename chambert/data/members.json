@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TechWorks",
+        "address": "123 Web St, Santa Fe",
+        "phone": "+54 9 342 123-4567",
+        "website": "https://www.techworks.org.uk/",
+        "image": "techworks.png",
+        "membership": 3
+    },
+    {
+        "name": "Café Central",
+        "address": "456 Coffee Ave, Santa Fe",
+        "phone": "+54 9 342 987-6543",
+        "website": "https://cafecentral.com",
+        "image": "cafe.png",
+        "membership": 2
+    },
+    {
+        "name": "GreenGrocer",
+        "address": "789 Market St, Santa Fe",
+        "phone": "+54 9 342 555-1212",
+        "website": "https://greengrocer.com",
+        "image": "grocer.png",
+        "membership": 1
+    }
+]

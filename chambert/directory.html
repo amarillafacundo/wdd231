@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Facundo Amarilla">
+    <meta name="description" content="Directory of local businesses for Santa Fe Chamber of Commerce">
+
+    <title>Santa Fe Chamber | Business Directory</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/chamber_commerce.ico" type="image/chamber_commerce">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Santa Fe Chamber | Directory">
+    <meta property="og:description"
+        content="Explore local businesses in Santa Fe with our Chamber of Commerce directory.">
+    <meta property="og:image" content="https://facundoemanuelamarilla.github.io/wdd231/chambert/images/argentine_commerce.png">
+    <meta property="og:url" content="https://facundoemanuelamarilla.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/directory.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Santa Fe Chamber Directory</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="view-toggle">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </section>
+
+        <section id="directory" class="grid"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Facundo Amarilla | WDD 231 | Santa Fe, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/directory.js" defer></script>
+</body>
+
+</html>
