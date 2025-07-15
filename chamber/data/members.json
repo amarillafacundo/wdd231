@@ -1,26 +1,66 @@
 [
     {
-        "name": "TechWorks",
-        "address": "123 Web St, Santa Fe",
+        "name": "AXION",
+        "address": "Av. Rivadavia 101, Santa Fe",
         "phone": "+54 9 342 123-4567",
-        "website": "https://www.techworks.org.uk/",
-        "image": "techworks.png",
+        "website": "http://www.axionenergy.com/Paginas/index.aspx",
+        "image": "axion.webp",
         "membership": 3
     },
     {
-        "name": "Café Central",
-        "address": "456 Coffee Ave, Santa Fe",
-        "phone": "+54 9 342 987-6543",
-        "website": "https://cafecentral.com",
-        "image": "cafe.png",
+        "name": "Aerolineas Argentinas",
+        "address": "Bv. Pellegrini 789, Santa Fe",
+        "phone": "+54 9 342 888-2233",
+        "website": "https://www.aerolineas.com.ar/",
+        "image": "aerolineasargentinas.webp",
         "membership": 2
     },
     {
-        "name": "GreenGrocer",
-        "address": "789 Market St, Santa Fe",
-        "phone": "+54 9 342 555-1212",
-        "website": "https://greengrocer.com",
-        "image": "grocer.png",
+        "name": "Burger King",
+        "address": "9 de Julio 322, Santa Fe",
+        "phone": "+54 9 342 555-1234",
+        "website": "https://www.burgerking.com.ar/es/",
+        "image": "burgerking.webp",
         "membership": 1
+    },
+    {
+        "name": "Walmart",
+        "address": "Urquiza 1500, Santa Fe",
+        "phone": "+54 9 342 456-7890",
+        "website": "http://walmart.com/",
+        "image": "walmart.webp",
+        "membership": 2
+    },
+    {
+        "name": "Shell",
+        "address": "San Martín 1111, Santa Fe",
+        "phone": "+54 9 342 999-4444",
+        "website": "https://www.shell.com.ar/",
+        "image": "shell.webp",
+        "membership": 3
+    },
+    {
+        "name": "YPF",
+        "address": "Ituzaingó 500, Santa Fe",
+        "phone": "+54 9 342 321-0000",
+        "website": "https://ypf.com/",
+        "image": "ypf.webp",
+        "membership": 1
+    },
+    {
+        "name": "Le Utthe",
+        "address": "Av. Freyre 999, Santa Fe",
+        "phone": "+54 9 342 777-8888",
+        "website": "https://www.leutthe.com/",
+        "image": "leutthe.webp",
+        "membership": 2
+    },
+    {
+        "name": "McDonald's",
+        "address": "25 de Mayo 120, Santa Fe",
+        "phone": "+54 9 342 345-6789",
+        "website": "https://www.mcdonalds.com.ar/",
+        "image": "mcdonalds.webp",
+        "membership": 3
     }
 ]
