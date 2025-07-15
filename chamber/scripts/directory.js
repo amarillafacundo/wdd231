@@ -27,13 +27,12 @@ function displayMembers(members) {
 
         // Dynamically add content including image
         card.innerHTML = `
-            <img src="images/${member.image}" alt="Logo of ${member.name}">
-            <h2>${member.name}</h2>
-            <p><strong>Address:</strong> ${member.address}</p>
-            <p><strong>Phone:</strong> ${member.phone}</p>
-            <p><strong>Website:</strong> <a href="${member.website}" target="_blank">${member.website}</a></p>
-            <p class="level">Membership: ${getMembershipLabel(member.membership)}</p>
-        `;
+    <img src="images/${member.image}" alt="Logo of ${member.name}" width="100" height="100"> <h2>${member.name}</h2>
+    <p><strong>Address:</strong> ${member.address}</p>
+    <p><strong>Phone:</strong> ${member.phone}</p>
+    <p><strong>Website:</strong> <a href="${member.website}" target="_blank">${member.website}</a></p>
+    <p class="level">Membership: ${getMembershipLabel(member.membership)}</p>
+    `;
 
         directoryContainer.appendChild(card);
     });
