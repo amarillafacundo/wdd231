@@ -136,6 +136,46 @@ nav a.active {
     color: var(--primary-color);
 }
 
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.hero h1,
+.hero h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #61D0DE;
+    color: #004080;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #00a2bd;
+    color: white;
+}
+
 /* === Footer === */
 footer p {
     margin: 0.2rem;
@@ -143,369 +183,95 @@ footer p {
 }
 
 
-/* --- Styles for index.html Sections --- */
 
-/* Hero Section */
-.home-main .hero {
-    /* ADDED .home-main */
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
+html,
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
-.home-main .hero img {
-    /* ADDED .home-main */
+/* Specific to index.html only */
+body.home .home-main {
+    display: block;
     width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+body.home img {
+    max-width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
-    max-height: 400px;
 }
 
-.home-main .hero h2 {
-    /* ADDED .home-main */
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    font-size: 1.8em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-}
-
-.home-main .cta-button {
-    /* ADDED .home-main */
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.home-main .cta-button:hover {
-    /* ADDED .home-main */
-    background-color: #0056b3;
-}
-
-/* General Section Styling */
-/* This rule was likely causing issues on directory.html. */
-/* Change: main section {} to .home-main section {} */
-.home-main section {
-    /* CHANGED THIS FROM main section */
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.home-main section h2,
-.home-main section h3 {
-    /* ADDED .home-main */
-    text-align: center;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-/* Event Highlights Section */
-.home-main .events #event-highlights {
-    /* ADDED .home-main */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-
-/* Weather Section */
-.home-main .weather-section {
-    /* ADDED .home-main */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
-}
-
-.home-main #weather-info {
-    /* ADDED .home-main */
-    font-size: 1.2em;
-    color: #333;
-}
-
-.home-main .weather-icon {
-    /* ADDED .home-main */
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-}
-
-.home-main #forecast-info {
-    /* ADDED .home-main */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
-}
-
-.home-main .forecast-card {
-    /* ADDED .home-main */
-    flex: 1 1 100px;
-    max-width: 120px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 0.9em;
-}
-
-.home-main .forecast-card img.weather-icon-small {
-    /* ADDED .home-main */
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-}
-
-.home-main .forecast-card .description-small {
-    /* ADDED .home-main */
-    font-size: 0.8em;
-    color: #666;
-}
-
-
-/* News Release Section */
-.home-main .news article {
-    /* ADDED .home-main */
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-.home-main .news article:last-child {
-    /* ADDED .home-main */
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
-.home-main .news article h3 {
-    /* ADDED .home-main */
-    text-align: left;
-    color: #007bff;
-}
-
-.home-main .news article p {
-    /* ADDED .home-main */
-    line-height: 1.6;
-    color: #555;
-}
-
-.home-main .news article a {
-    /* ADDED .home-main */
-    display: inline-block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.home-main .news article a:hover {
-    /* ADDED .home-main */
-    text-decoration: underline;
-}
-
-/* Spotlight Section */
-.home-main .spotlights #spotlight-members {
-    /* ADDED .home-main */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.home-main .spotlight-card {
-    /* ADDED .home-main */
-    flex: 1 1 280px;
-    max-width: 320px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.home-main .spotlight-card img {
-    /* ADDED .home-main */
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.home-main .spotlight-card h3 {
-    /* ADDED .home-main */
-    margin-bottom: 5px;
-    color: #007bff;
-}
-
-.home-main .spotlight-card p {
-    /* ADDED .home-main */
-    font-size: 0.95em;
-    color: #555;
-    margin-bottom: 5px;
-}
-
-.home-main .spotlight-card a {
-    /* ADDED .home-main */
-    color: #007bff;
-    text-decoration: none;
-}
-
-.home-main .spotlight-card a:hover {
-    /* ADDED .home-main */
-    text-decoration: underline;
-}
-
-
-/* Join Us Section */
-.home-main .join-us {
-    /* ADDED .home-main */
-    text-align: center;
-}
-
-.home-main .join-button {
-    /* ADDED .home-main */
-    background-color: #28a745;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.home-main .join-button:hover {
-    /* ADDED .home-main */
-    background-color: #218838;
-}
-
-
-/* --- Responsive Adjustments (Media Queries) --- */
-
-@media screen and (min-width: 600px) {
-
-    /* For Tablets and larger */
-    .home-main .hero h2 {
-        /* ADDED .home-main */
-        font-size: 2.5em;
-    }
-
-    .home-main .cta-button {
-        /* ADDED .home-main */
-        font-size: 1.2em;
-        padding: 12px 25px;
-    }
-
-    .home-main #forecast-info {
-        /* ADDED .home-main */
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .home-main .news article {
-        /* ADDED .home-main */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-    }
-
-    .home-main .spotlights #spotlight-members {
-        /* ADDED .home-main */
-        justify-content: space-around;
-    }
-
-    .home-main .spotlight-card {
-        /* ADDED .home-main */
-        flex: 0 1 30%;
-        max-width: 300px;
-    }
-}
-
+/* Desktop view grid only for home page */
 @media screen and (min-width: 992px) {
-
-    /* For Desktops */
-    .home-main .hero h2 {
-        /* ADDED .home-main */
-        font-size: 3.5em;
-        top: 30%;
-    }
-
-    .home-main .cta-button {
-        /* ADDED .home-main */
-        font-size: 1.3em;
-        padding: 15px 30px;
-        bottom: 15%;
-    }
-
-    /* Example of a more complex layout for main content if desired */
-    /* You might use grid for your main sections on desktop */
-    .home-main {
-        /* ADDED .home-main */
+    body.home .home-main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: auto;
         gap: 20px;
         max-width: 1200px;
-        margin: 20px auto;
+        margin: 0 auto;
     }
+}
 
-    .home-main .hero {
-        grid-column: 1 / -1;
-    }
+.weather-card {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e6f2f8;
+    border-radius: 8px;
+    margin: 1rem;
+}
 
-    /* ADDED .home-main */
-    .home-main .weather-section {
-        grid-column: 1 / 2;
-        grid-row: 2 / 4;
-    }
+.weather-card img {
+    width: 80px;
+    height: 80px;
+}
 
-    /* ADDED .home-main */
-    .home-main .spotlights {
-        grid-column: 3 / -1;
-        grid-row: 2 / 4;
-    }
+/* === Spotlight Section === */
+.spotlight {
+    background-color: #f0f8ff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
 
-    /* ADDED .home-main */
-    .home-main .events {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-    }
+.spotlight h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #004080;
+    margin-bottom: 1rem;
+}
 
-    /* ADDED .home-main */
-    .home-main .news {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-    }
+.spotlight-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
-    /* ADDED .home-main */
-    .home-main .join-us {
-        grid-column: 1 / -1;
-    }
+.spotlight-card {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
 
-    /* ADDED .home-main */
+.spotlight-card img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto 0.5rem;
+    display: block;
+}
 
-    .home-main .spotlight-card {
-        /* ADDED .home-main */
-        flex: 0 1 45%;
-    }
+.spotlight-card h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.spotlight-card a {
+    text-decoration: none;
+    color: #61D0DE;
+    font-weight: bold;
 }

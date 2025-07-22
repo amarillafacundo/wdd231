@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="styles/directory.css">
 </head>
 
-<body>
+<body class="home">
     <header>
         <nav>
             <a href="index.html" class="active">Home</a>
@@ -40,6 +40,14 @@
             <h2>Welcome to Santa Fe Chamber of Commerce!</h2>
             <a href="#" class="cta-button">Join Today!</a>
         </section>
+        
+        <section class="spotlight">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-container" id="spotlights">
+                
+            </div>
+        </section>
+
 
         <section class="events">
             <h2>Event Highlights</h2>
@@ -47,6 +55,16 @@
                 <p>Check back soon for exciting events!</p>
             </div>
         </section>
+
+        <section class="weather-card">
+            <h2>Weather in Santa Fe</h2>
+            <p id="current-temp"></p>
+            <figure>
+                <img id="weather-icon" src="" alt="" />
+                <figcaption id="weather-desc"></figcaption>
+            </figure>
+        </section>
+
 
         <section class="weather-section">
             <h2>Current Weather</h2>
@@ -90,6 +108,10 @@
     </footer>
 
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+
 </body>
 
 </html>

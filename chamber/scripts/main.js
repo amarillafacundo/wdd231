@@ -7,7 +7,7 @@ document.getElementById("lastModified").textContent = `Last modified: ${document
 
 // --- Weather API Implementation ---
 
-const weatherAPIKey = "3c1670f2e8991afe549132fd8c765953"; // <<-- REPLACE THIS WITH YOUR ACTUAL API KEY -->>
+const weatherAPIKey = "3c1670f2e8991afe549132fd8c765953/ <<-- REPLACE THIS WITH YOUR ACTUAL API KEY -->>
 const city = "Santa Fe, AR"; // City and country code for Santa Fe, Argentina
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${weatherAPIKey}`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${weatherAPIKey}`;
