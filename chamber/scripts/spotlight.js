@@ -20,9 +20,9 @@ async function getSpotlights() {
             card.classList.add("spotlight-card");
 
             card.innerHTML = `
-        <img src="images/${member.image}" alt="${member.name} logo">
+        <img src="images/${member.image}" alt="${member.name} logo" width="100" height="100" loading="lazy">
         <h3>${member.name}</h3>
-        <p><a href="${member.website}" target="_blank">Visit Website</a></p>
+        <p><a href="${member.website}" target="_blank" rel="noopener">Visit Website</a></p>
       `;
 
             container.appendChild(card);

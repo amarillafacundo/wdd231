@@ -17,6 +17,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header,
@@ -272,6 +273,7 @@ body.home img {
 
 .spotlight-card a {
     text-decoration: none;
-    color: #61D0DE;
+    color: #004080;
+    /* Higher contrast for accessibility */
     font-weight: bold;
 }
