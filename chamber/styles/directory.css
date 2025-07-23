@@ -274,6 +274,5 @@ body.home img {
 .spotlight-card a {
     text-decoration: none;
     color: #004080;
-    /* Higher contrast for accessibility */
     font-weight: bold;
 }
