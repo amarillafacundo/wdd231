@@ -1,36 +1,35 @@
-async function getSpotlights() {
-    try {
-        const response = await fetch("data/members.json");
-        const members = await response.json();
+async function getSpotlightMembers() {
+    const response = await fetch('data/members.json');
+    const data = await response.json();
 
-        
-        const spotlightCandidates = data.members.filter(member =>
-            member.membership === "Gold" || member.membership === "Silver"
-        );
+    
+    const spotlightCandidates = data.filter(member =>
+        member.membership === "Gold" || member.membership === "Silver"
+    );
 
-        
-        const randomSpotlights = spotlightCandidates
-            .sort(() => 0.5 - Math.random())
-            .slice(0, 3);
+    
+    spotlightCandidates.sort(() => 0.5 - Math.random());
 
-        const container = document.getElementById("spotlights");
+    
+    const selected = spotlightCandidates.slice(0, 3);
 
-        randomSpotlights.forEach(member => {
-            const card = document.createElement("div");
-            card.classList.add("spotlight-card");
+    const spotlightContainer = document.getElementById('spotlight-members');
+    spotlightContainer.innerHTML = '';
 
-            card.innerHTML = `
-        <img src="images/${member.image}" alt="${member.name} logo" width="100" height="100" loading="lazy">
-        <h3>${member.name}</h3>
-        <p><a href="${member.website}" target="_blank" rel="noopener">Visit Website</a></p>
-      `;
+    selected.forEach(member => {
+        const card = document.createElement('div');
+        card.classList.add('spotlight-card');
 
-            container.appendChild(card);
-        });
+        card.innerHTML = `
+      <img src="images/${member.image}" alt="${member.name} logo" loading="lazy">
+      <h3>${member.name}</h3>
+      <p>${member.address}</p>
+      <a href="${member.website}" target="_blank">Visit Website</a>
+    `;
 
-    } catch (error) {
-        console.error("Error loading spotlight data:", error);
-    }
+        spotlightContainer.appendChild(card);
+    });
 }
 
-getSpotlights();
+getSpotlightMembers();
+
