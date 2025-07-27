@@ -4,8 +4,8 @@ async function getSpotlights() {
         const members = await response.json();
 
         
-        const spotlightCandidates = members.filter(member =>
-            member.membership === 2 || member.membership === 3
+        const spotlightCandidates = data.members.filter(member =>
+            member.membership === "Gold" || member.membership === "Silver"
         );
 
         

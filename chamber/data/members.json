@@ -5,7 +5,7 @@
         "phone": "+54 9 342 123-4567",
         "website": "http://www.axionenergy.com/Paginas/index.aspx",
         "image": "axion.webp",
-        "membership": 3
+        "membership": "Gold"
     },
     {
         "name": "Aerolineas Argentinas",
@@ -13,7 +13,7 @@
         "phone": "+54 9 342 888-2233",
         "website": "https://www.aerolineas.com.ar/",
         "image": "aerolineasargentinas.webp",
-        "membership": 2
+        "membership": "Silver"
     },
     {
         "name": "Burger King",
@@ -21,7 +21,7 @@
         "phone": "+54 9 342 555-1234",
         "website": "https://www.burgerking.com.ar/es/",
         "image": "burgerking.webp",
-        "membership": 1
+        "membership": "Gold"
     },
     {
         "name": "Walmart",
@@ -29,7 +29,7 @@
         "phone": "+54 9 342 456-7890",
         "website": "http://walmart.com/",
         "image": "walmart.webp",
-        "membership": 2
+        "membership": "Silver"
     },
     {
         "name": "Shell",
@@ -37,7 +37,7 @@
         "phone": "+54 9 342 999-4444",
         "website": "https://www.shell.com.ar/",
         "image": "shell.webp",
-        "membership": 3
+        "membership": "Silver"
     },
     {
         "name": "YPF",
@@ -45,7 +45,7 @@
         "phone": "+54 9 342 321-0000",
         "website": "https://ypf.com/",
         "image": "ypf.webp",
-        "membership": 1
+        "membership": "Silver"
     },
     {
         "name": "Le Utthe",
@@ -53,7 +53,7 @@
         "phone": "+54 9 342 777-8888",
         "website": "https://www.leutthe.com/",
         "image": "leutthe.webp",
-        "membership": 2
+        "membership": "Gold"
     },
     {
         "name": "McDonald's",
@@ -61,6 +61,6 @@
         "phone": "+54 9 342 345-6789",
         "website": "https://www.mcdonalds.com.ar/",
         "image": "mcdonalds.webp",
-        "membership": 3
+        "membership": "Gold"
     }
 ]

@@ -49,6 +49,12 @@ nav a.active {
     color: var(--accent-color);
 }
 
+.navigation a.active {
+    font-weight: bold;
+    color: var(--accent1-color);
+    border-bottom: 2px solid var(--accent1-color);
+}
+
 /* === View Toggle Buttons === */
 .view-toggle {
     text-align: center;
@@ -275,4 +281,48 @@ body.home img {
     text-decoration: none;
     color: #004080;
     font-weight: bold;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--primary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Hero improvements */
+.hero {
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+}
+
+/* Mobile enhancements */
+@media screen and (max-width: 600px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    section {
+        padding: 1rem 0.5rem;
+    }
 }
