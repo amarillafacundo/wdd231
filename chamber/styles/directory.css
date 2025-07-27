@@ -231,8 +231,9 @@ body.home img {
 }
 
 /* === Spotlight Section === */
-.spotlights {
-    padding: 1rem;
+.spotlight {
+    background-color: #f0f8ff;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
@@ -251,19 +252,18 @@ body.home img {
 }
 
 .spotlight-card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    background-color: white;
     padding: 1rem;
-    margin: 1rem auto;
-    max-width: 300px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .spotlight-card img {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
-    border-radius: 5px;
+    margin: 0 auto 0.5rem;
+    display: block;
 }
 
 .spotlight-card h3 {
@@ -276,6 +276,7 @@ body.home img {
     color: #004080;
     font-weight: bold;
 }
+
 
 *,
 *::before,
