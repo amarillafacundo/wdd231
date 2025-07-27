@@ -45,11 +45,10 @@ nav a {
     font-weight: bold;
 }
 
-.navigation a.active {
-    font-weight: bold;
-    color: var(--accent1-color);
-    border-bottom: 2px solid var(--accent1-color);
+nav a.active {
+    color: var(--accent-color);
 }
+
 /* === View Toggle Buttons === */
 .view-toggle {
     text-align: center;
