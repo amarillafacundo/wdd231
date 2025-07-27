@@ -49,12 +49,6 @@ nav a.active {
     color: var(--accent-color);
 }
 
-.navigation a.active {
-    font-weight: bold;
-    color: var(--accent1-color);
-    border-bottom: 2px solid var(--accent1-color);
-}
-
 /* === View Toggle Buttons === */
 .view-toggle {
     text-align: center;
@@ -283,7 +277,7 @@ body.home img {
     font-weight: bold;
 }
 
-
+/* ===== Recommended Enhancements for Design Principles ===== */
 *,
 *::before,
 *::after {
