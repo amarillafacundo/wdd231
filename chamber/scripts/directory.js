@@ -1,11 +1,10 @@
-
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
 document.getElementById("lastModified").textContent = `Last modified: ${document.lastModified}`;
 
 
-const dataURL = "data/members.json"; 
+const dataURL = "data/members.json";
 const directoryContainer = document.getElementById("directory");
 
 async function getMembers() {
@@ -19,12 +18,12 @@ async function getMembers() {
 }
 
 function displayMembers(members) {
-    directoryContainer.innerHTML = ""; 
+    directoryContainer.innerHTML = "";
     members.forEach(member => {
         const card = document.createElement("div");
         card.classList.add("member-card");
 
-        
+
         card.innerHTML = `
             <img src="images/${member.image}" alt="Logo of ${member.name}" width="100" height="100">
             <h2>${member.name}</h2>
@@ -58,12 +57,12 @@ gridButton.addEventListener("click", () => {
     directoryContainer.classList.add("grid");
     directoryContainer.classList.remove("list");
 
-    
+
     const memberCards = directoryContainer.querySelectorAll(".member-card");
     memberCards.forEach(card => {
         const img = card.querySelector("img");
         if (img) {
-            img.style.display = "block"; 
+            img.style.display = "block";
         }
     });
 });

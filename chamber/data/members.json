@@ -3,9 +3,9 @@
         "name": "AXION",
         "address": "Av. Rivadavia 101, Santa Fe",
         "phone": "+54 9 342 123-4567",
-        "website": "http://www.axionenergy.com/Paginas/index.aspx",
+        "website": "http://www.axionenergy.com/",
         "image": "axion.webp",
-        "membership": "Gold"
+        "membership": 3
     },
     {
         "name": "Aerolineas Argentinas",
@@ -13,7 +13,7 @@
         "phone": "+54 9 342 888-2233",
         "website": "https://www.aerolineas.com.ar/",
         "image": "aerolineasargentinas.webp",
-        "membership": "Silver"
+        "membership": 2
     },
     {
         "name": "Burger King",
@@ -21,7 +21,7 @@
         "phone": "+54 9 342 555-1234",
         "website": "https://www.burgerking.com.ar/es/",
         "image": "burgerking.webp",
-        "membership": "Gold"
+        "membership": 1
     },
     {
         "name": "Walmart",
@@ -29,7 +29,7 @@
         "phone": "+54 9 342 456-7890",
         "website": "http://walmart.com/",
         "image": "walmart.webp",
-        "membership": "Silver"
+        "membership": 2
     },
     {
         "name": "Shell",
@@ -37,7 +37,7 @@
         "phone": "+54 9 342 999-4444",
         "website": "https://www.shell.com.ar/",
         "image": "shell.webp",
-        "membership": "Silver"
+        "membership": 3
     },
     {
         "name": "YPF",
@@ -45,7 +45,7 @@
         "phone": "+54 9 342 321-0000",
         "website": "https://ypf.com/",
         "image": "ypf.webp",
-        "membership": "Silver"
+        "membership": 1
     },
     {
         "name": "Le Utthe",
@@ -53,7 +53,7 @@
         "phone": "+54 9 342 777-8888",
         "website": "https://www.leutthe.com/",
         "image": "leutthe.webp",
-        "membership": "Gold"
+        "membership": 2
     },
     {
         "name": "McDonald's",
@@ -61,6 +61,6 @@
         "phone": "+54 9 342 345-6789",
         "website": "https://www.mcdonalds.com.ar/",
         "image": "mcdonalds.webp",
-        "membership": "Gold"
+        "membership": 3
     }
 ]
