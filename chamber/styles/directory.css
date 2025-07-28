@@ -281,7 +281,7 @@ body.home img {
     font-weight: bold;
 }
 
-/* ===== Recommended Enhancements for Design Principles ===== */
+
 *,
 *::before,
 *::after {
@@ -367,7 +367,7 @@ h2 {
     color: green;
 }
 
-/* Optional styling by level */
+
 .card.np {
     border-left: 5px solid #999;
 }
