@@ -179,16 +179,5 @@ function displaySpotlights(spotlights) {
     });
 }
 
-// Reuse the getMembershipLabel function from your directory.js if not already in main.js
-// If you moved it from directory.js to main.js:
-// function getMembershipLabel(level) {
-//     switch (level) {
-//         case 3: return "Gold";
-//         case 2: return "Silver";
-//         case 1: return "Member";
-//         default: return "N/A";
-//     }
-// }
 
-// Call the function to load member spotlights when the page loads
 loadSpotlightMembers();
