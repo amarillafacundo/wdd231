@@ -281,7 +281,7 @@ body.home img {
     font-weight: bold;
 }
 
-
+/* ===== Recommended Design Principles ===== */
 *,
 *::before,
 *::after {
@@ -440,4 +440,129 @@ form input[type="submit"] {
 form button:hover,
 form input[type="submit"]:hover {
     background-color: #4bb3c3;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    margin: 2rem 0;
+}
+
+.membership-cards .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membership-cards .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.membership-cards .card h3 {
+    margin-top: 0;
+    color: #1e2f4f;
+}
+
+.membership-cards .card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .membership-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .membership-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    text-align: left;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    color: #1e2f4f;
+}
+
+.modal-content ul {
+    padding-left: 1.5rem;
+}
+
+.modal-content .close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.card.np {
+    border-left: 5px solid #999;
+    
+}
+
+.card.bronze {
+    border-left: 5px solid #cd7f32;
+    
+}
+
+.card.silver {
+    border-left: 5px solid #c0c0c0;
+    
+}
+
+.card.gold {
+    border-left: 5px solid #ffd700;
+    
+}
+
+.card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }

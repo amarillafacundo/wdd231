@@ -1,6 +1,6 @@
 // --- Member Spotlights Implementation ---
 
-const membersDataURL = "data/members.json"; // Your members.json file
+const membersDataURL = "data/members.json"; 
 const spotlightMembersDiv = document.getElementById("spotlight-members");
 
 async function loadSpotlightMembers() {
@@ -11,14 +11,14 @@ async function loadSpotlightMembers() {
         }
         const members = await response.json();
 
-        // Filter for Gold (3) and Silver (2) members
+        
         const eligibleMembers = members.filter(member =>
             member.membership === 3 || member.membership === 2
         );
 
-        // Shuffle the eligible members and pick the first 2 or 3
+        
         const shuffledMembers = eligibleMembers.sort(() => 0.5 - Math.random());
-        const selectedSpotlights = shuffledMembers.slice(0, 3); // Get up to 3 random members
+        const selectedSpotlights = shuffledMembers.slice(0, 3); 
 
         displaySpotlights(selectedSpotlights);
 
@@ -31,10 +31,8 @@ async function loadSpotlightMembers() {
 }
 
 function displaySpotlights(spotlights) {
-    if (!spotlightMembersDiv) return; // Exit if div not found
-
-    spotlightMembersDiv.innerHTML = ""; // Clear existing content
-
+    if (!spotlightMembersDiv) return; 
+    spotlightMembersDiv.innerHTML = ""; 
     if (spotlights.length === 0) {
         spotlightMembersDiv.innerHTML = "<p>No Gold or Silver members to spotlight at this time.</p>";
         return;
@@ -42,7 +40,7 @@ function displaySpotlights(spotlights) {
 
     spotlights.forEach(member => {
         const spotlightCard = document.createElement("div");
-        spotlightCard.classList.add("spotlight-card"); // Add a class for styling
+        spotlightCard.classList.add("spotlight-card"); 
 
         spotlightCard.innerHTML = `
             <h3>${member.name}</h3>
@@ -65,5 +63,5 @@ function getMembershipLabel(level) {
     }
 }
 
-// Call the function to load member spotlights when the page loads
+
 loadSpotlightMembers();
