@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Santa Fe Chamber of Commerce | Discover</title>
+    
+    <meta name="description" content="Discover page for the Santa Fe Chamber of Commerce">
+    <meta property="og:title" content="Santa Fe Chamber of Commerce | Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://amarillafacundo.github.io/wdd231/chamber/images/argentine_commerce.png">
+    <meta property="og:url" content="https://facundoemanuelamarilla.github.io/wdd231/chamber/index.html">
+    <meta property="og:description" content="Official website for the Santa Fe Chamber of Commerce. Promoting local businesses and community growth.">
+    <meta name="author" content="Facundo Amarilla">
+    
+    <link rel="icon" href="images/chamber_commerce.ico" type="image/chamber_commerce">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/directory.css">
+</head>
+
+<body class="discover">
+    <header>
+        <h1>Santa Fe Chamber of Commerce</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <main class="discover-main">
+            <section class="sidebar">
+                <h2>Welcome!</h2>
+                <p id="visit-message">Loading visit info...</p>
+            </section>
+
+            <section class="interest-content">
+                <h2>Things to Discover in Santa Fe</h2>
+                <div id="interests-grid" class="interests-grid">
+                    <!-- Interest items will be loaded here -->
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Santa Fe Chamber of Commerce</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/discover.js" defer></script>
+    <script>
+        // Update year and last modified date
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+
+</html>
+
+
+</html>

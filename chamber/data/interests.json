@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Santa Fe Plaza 25 de Mayo",
+        "image": "images/plaza_santafe.webp",
+        "description": "Historic plaza in the heart of downtown Santa Fe.",
+        "alt": "Santa Fe Plaza"
+    },
+    {
+        "title": "Santa Fe Suspension Bridge",
+        "image": "images/suspension_bridge.webp",
+        "description": "Historic suspension bridge of the city of Santa Fe",
+        "alt": "Santa Fe Suspension Bridge"
+    },
+    {
+        "title": "The Molino Cultural Factory",
+        "image": "images/the_molino.webp",
+        "description": "Former flour mill with interactive art, culture, and science exhibits and activities.",
+        "alt": "The Molino Cultural Factory"
+    },
+    {
+        "title": "The Santa Fe shopping mall",
+        "image": "images/the_shopping.webp",
+        "description": "This shopping center is located in a central area, on Dock 1 of the Port of Santa Fe, and is characterized by offering exclusive stores from major brands.",
+        "alt": "The Santa Fe shopping mall"
+    },
+    {
+        "title": "Brigadier General Estanislao López Stadium",
+        "image": "images/stadium_soccer.webp",
+        "description": "The Brigadier General Estanislao López Stadium, also known as El Cementerio de los Elefantes, is the home stadium of Club Atlético Colón in Santa Fe, Argentina",
+        "alt": "Brigadier General Estanislao López Stadium"
+    },
+    {
+        "title": "Monument to the Argentine Flag",
+        "image": "images/argentine_flag.webp",
+        "description": "Monument to the Argentine Flag",
+        "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag"
+    }
+]
