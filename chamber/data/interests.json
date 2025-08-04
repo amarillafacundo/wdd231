@@ -21,30 +21,30 @@
         "title": "The Santa Fe Shopping Mall",
         "image": "images/the_shopping.webp",
         "description": "This shopping center is located in a central area, on Dock 1 of the Port of Santa Fe, and is characterized by offering exclusive stores from major brands.",
-        "alt": "The Santa Fe shopping mall"
+        "alt": "The Santa Fe Shopping mall"
     },
     {
         "title": "Brigadier General Estanislao López Stadium",
         "image": "images/stadium_soccer.webp",
-        "description": "The Brigadier General Estanislao López Stadium, also known as El Cementerio de los Elefantes, is the home stadium of Club Atlético Colón in Santa Fe, Argentina",
+        "description": "The Brigadier General Estanislao López Stadium, also known as El Cementerio de los Elefantes, is the home stadium of Club Atlético Colón in Santa Fe, Argentina.",
         "alt": "Brigadier General Estanislao López Stadium"
     },
     {
         "title": "Monument to the Argentine Flag",
         "image": "images/argentine_flag.webp",
         "description": "Monument to the Argentine Flag",
-        "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag"
+        "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag."
     },
     {
         "title": "Rosario Plaza Independencia",
         "image": "images/plaza_rosario.webp",
-        "description": "Monument to the Argentine Flag",
-        "alt": "Independence Park is a large green space in the heart of Rosario, Argentina. It's known for its lake, where you can take boat rides, and for its green areas, ideal for walking and enjoying the outdoors."
+        "description": "Independence Park is a large green space in the heart of Rosario, Argentina. It's known for its lake, where you can take boat rides, and for its green areas, ideal for walking and enjoying the outdoors.",
+        "alt": "Parque Independencia Rosario"
     },
     {
         "title": "Universidad del Litoral",
         "image": "images/university_campus.webp",
-        "description": "Monument to the Argentine Flag",
-        "alt": "The Universidad Nacional del Litoral is one of the most important public universities in the Argentine Republic."
+        "description": "The Universidad Nacional del Litoral is one of the most important public universities in the Argentine Republic.",
+        "alt": "Universidad del Litoral."
     }
 ]
