@@ -34,7 +34,10 @@ async function fetchInterestItems() {
             const img = document.createElement('img');
             img.src = item.image;
             img.alt = item.name;
-            img.loading = 'lazy';
+            img.loading = "lazy";
+            img.width = 400;
+            img.height = 300;
+
 
             const title = document.createElement('h3');
             title.textContent = item.name;
