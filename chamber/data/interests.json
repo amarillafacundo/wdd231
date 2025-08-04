@@ -34,5 +34,17 @@
         "image": "images/argentine_flag.webp",
         "description": "Monument to the Argentine Flag",
         "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag"
+    },
+    {
+        "title": "Rosario Plaza Independencia",
+        "image": "images/plaza_rosario.webp",
+        "description": "Monument to the Argentine Flag",
+        "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag"
+    },
+    {
+        "title": "Universidad del Litoral",
+        "image": "images/university_campus.webp",
+        "description": "Monument to the Argentine Flag",
+        "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag"
     }
 ]
