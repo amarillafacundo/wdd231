@@ -1,0 +1,87 @@
+/* ---------- BASE STYLES ---------- */
+:root {
+    --light: #f8f7f7;
+    --primary: #a10e0d;
+    --gray: #808080;
+    --dark: #171818;
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+/* ---------- HEADER & NAV ---------- */
+header {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+}
+
+header a img {
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+    margin-top: 2rem;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: var(--gray);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

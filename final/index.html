@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness for Beginners | Home</title>
@@ -9,8 +10,7 @@
     <meta name="author" content="Amarilla Facundo">
 
     <!-- Fonts and CSS -->
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -19,8 +19,13 @@
 
 <body>
     <header>
-        <h1>Fitness for Beginners</h1>
-        <nav>
+        <a href="index.html">
+            <img src="images/workout_home.png" alt="Fitness for Beginners Logo" style="height: 50px;" />
+        </a>
+    
+        <button id="menu-btn" aria-label="Menu">&#9776;</button>
+    
+        <nav id="nav-menu" class="hidden">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="workouts.html">Workouts</a></li>
@@ -29,6 +34,8 @@
             </ul>
         </nav>
     </header>
+
+
 
     <main>
         <h2>Welcome to Your Fitness Journey!</h2>
