@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Jumping Jacks",
+        "description": "Great for warming up your entire body.",
+        "image": "images/jumping-jacks.webp"
+    },
+    {
+        "title": "Bodyweight Squats",
+        "description": "Strengthen your legs and glutes without equipment.",
+        "image": "images/squats.webp"
+    },
+    {
+        "title": "Push-Ups",
+        "description": "Build upper body strength with good form.",
+        "image": "images/push-ups.web"
+    },
+    {
+        "title": "Plank Hold",
+        "description": "Engage your core and improve posture.",
+        "image": "images/plank.webp"
+    }
+]

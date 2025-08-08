@@ -270,7 +270,10 @@ footer {
 .habit-card img {
     width: 150px;
     height: 150px;
-    object-fit: contain;
+    object-fit: cover;
+    /* fills space while keeping proportion */
+    border-radius: 6px;
+    /* optional: soft corners */
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
 }
