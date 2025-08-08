@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness for Beginners | Home</title>
+    <title> FitStart - Home </title></title>
     <meta name="description" content="Start your fitness journey at home with simple workouts and healthy habits.">
     <meta name="author" content="Amarilla Facundo">
+    <link rel="icon" href="favicon.ico" type="favicon">
 
     <!-- Fonts and CSS -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -20,33 +20,50 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="images/logo.png" alt="Fitness for Beginners Logo" style="height: 50px;" />
+            <img src="images/workout_home.png" alt="FitStart Logo" style="height: 50px;">
         </a>
     
         <button id="menu-btn" aria-label="Menu">&#9776;</button>
-    
-        <nav id="nav-menu" class="hidden">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="workouts.html">Workouts</a></li>
-                <li><a href="habits.html">Healthy Habits</a></li>
-                <li><a href="form.html">Form</a></li>
-            </ul>
-        </nav>
     </header>
-
-
-
-
+    
+    <nav id="nav-menu" class="hidden">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="habits.html">Healthy Habits</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
 
     <main>
-        <h2>Welcome to Your Fitness Journey!</h2>
-        <p>This is the start of something great 💪</p>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Beginner Fitness Banner" class="hero-img">
+            <div class="hero-text">
+                <h1>Welcome to <span>FitStart</span></h1>
+                <p>Start your journey with simple routines and healthy habits.</p>
+            </div>
+        </section>
+        <section class="intro">
+            <h2>Start Your Fitness Journey</h2>
+            <p>
+                Discover simple and effective ways to start working out, improve your health, and develop better habits—perfect for complete beginners!
+            </p>
+        </section>
+        <section class="interests">
+            <h2>Explore More</h2>
+            <div class="interest-grid">
+                <div class="interest-card">Routine</div>
+                <div class="interest-card">Habits</div>
+                <div class="interest-card">Nutrition</div>
+                <div class="interest-card">Posture</div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Fitness for Beginners</p>
+        <p>&copy; 2025 FitStart</p>
     </footer>
+
 
     <script type="module" src="scripts/main.js"></script>
 </body>
