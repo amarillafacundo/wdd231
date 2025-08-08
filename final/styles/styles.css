@@ -22,6 +22,14 @@ body {
     padding: 1rem;
 }
 
+/* ---------- BRAND NAME ---------- */
+.site-title {
+    font-family: var(--font-heading);
+    font-weight: bold;
+    color: var(--primary);
+    letter-spacing: 1px;
+}
+
 /* ---------- HEADER & NAV ---------- */
 header {
     display: flex;
@@ -208,11 +216,26 @@ footer {
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workout-card:hover {
+    transform: scale(1.05);
+    /* zoom the whole card */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .workout-card img {
-    max-width: 100px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
     margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.workout-card img:hover {
+    transform: scale(1.1);
+    /* zoom image slightly */
 }
 
 .workout-card h2 {
