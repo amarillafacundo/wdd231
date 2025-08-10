@@ -33,12 +33,22 @@
         <section class="page-intro">
             <h1><span class="site-title">FitStart</span> Workout Plans</h1>
             <p>Start small with these easy, equipment-free exercises you can do at home.</p>
+            <div class="filter-section">
+                <label for="difficulty-filter">Filter by Difficulty:</label>
+                <select id="difficulty-filter">
+                    <option value="all">All</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
         </section>
 
         <section class="workout-grid">
         </section>
+    </div>
     </main>
-
+ 
     <footer>
         <p>&copy; 2025 <span class="site-title">FitStart</span></p>
     </footer>
@@ -47,7 +57,12 @@
     <script src="scripts/main.js" defer></script>
     <script src="scripts/workouts.js" defer></script>
 
+    <div id="workout-modal" class="modal">
+        <div class="modal-content">
+        </div>
+    </div>
 
 </body>
+
 
 </html>

@@ -1,20 +1,16 @@
-// Show form thank-you message
+// This file will now handle client-side validation and redirection
 const contactForm = document.getElementById('contact-form');
+
 if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        contactForm.style.display = 'none';
-        document.getElementById('form-message').style.display = 'block';
-    });
-}
+    contactForm.addEventListener('submit', function (event) {
+        // Simple form validation
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
 
-// Update footer year
-document.getElementById('year').textContent = new Date().getFullYear();
-
-// Mobile menu toggle
-const menuBtn = document.getElementById('menu-btn');
-if (menuBtn) {
-    menuBtn.addEventListener('click', function () {
-        document.querySelector('nav').classList.toggle('hidden');
+        if (name === '' || email === '' || message === '') {
+            alert('Please fill in all fields.');
+            event.preventDefault(); // Stop the form from submitting
+        }
     });
 }

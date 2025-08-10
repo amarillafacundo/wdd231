@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitStart - Contact Us</title>
-    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+    <title>FitStart - Thank You</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -18,10 +20,10 @@
         <a href="index.html">
             <img src="images/workout_home.png" alt="FitStart Logo" style="height: 50px;">
         </a>
-    
+
         <button id="menu-btn" aria-label="Menu">&#9776;</button>
     </header>
-    
+
     <nav id="nav-menu" class="hidden">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -33,22 +35,10 @@
 
     <main>
         <section class="contact-section">
-            <h1>Contact Us</h1>
-            <p>Have a question or just want to say hello? Fill out the form below!</p>
-
-            <form id="contact-form" action="form-action.html" method="get">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-            
+            <h1>Thank You!</h1>
+            <p>Your message has been received. Here is the information you submitted:</p>
+            <div id="submission-details">
+            </div>
         </section>
     </main>
 
@@ -56,8 +46,8 @@
         <p>&copy; 2025 <span class="site-title">FitStart</span></p>
     </footer>
 
-    <script src="scripts/main.js" defer></script>
-    <script src="scripts/form.js" defer></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/form-action.js"></script>
 </body>
 
 </html>
