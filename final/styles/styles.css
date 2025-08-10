@@ -32,6 +32,9 @@ body {
 }
 
 /* ---------- HEADER & NAV ---------- */
+.logo-link img {
+    height: 50px;
+}
 header {
     display: flex;
     align-items: center;
