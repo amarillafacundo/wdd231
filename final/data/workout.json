@@ -1,30 +1,40 @@
-[
-    {
-        "name": "Jumping Jacks",
-        "image": "images/jumping-jacks.webp",
-        "description": "A great warm-up exercise to get your blood flowing.",
-        "difficulty": "Easy",
-        "duration": "30 seconds"
-    },
-    {
-        "name": "Bodyweight Squats",
-        "image": "images/squats.webp",
-        "description": "Works your legs and core muscles.",
-        "difficulty": "Easy",
-        "duration": "15 reps"
-    },
-    {
-        "name": "Push-Ups",
-        "image": "images/pushups.webp",
-        "description": "Strengthens your chest, shoulders, and triceps.",
-        "difficulty": "Medium",
-        "duration": "10 reps"
-    },
-    {
-        "name": "Plank Hold",
-        "image": "images/plank.webp",
-        "description": "Engages your core and improves stability.",
-        "difficulty": "Medium",
-        "duration": "30 seconds"
-    }
-]
+{
+    "workouts": [
+        {
+            "id": "1",
+            "name": "Jumping Jacks",
+            "difficulty": "Beginner",
+            "duration": "5 minutes",
+            "description": "Great for warming up your entire body.",
+            "exercises": ["Jumping Jacks"],
+            "image": "images/jumping-jacks.webp"
+        },
+        {
+            "id": "2",
+            "name": "Bodyweight Squats",
+            "difficulty": "Beginner",
+            "duration": "10 minutes",
+            "description": "Strengthen your legs and glutes without equipment.",
+            "exercises": ["Bodyweight Squats"],
+            "image": "images/squats.webp"
+        },
+        {
+            "id": "3",
+            "name": "Push-Ups",
+            "difficulty": "Intermediate",
+            "duration": "10 minutes",
+            "description": "Build upper body strength with good form.",
+            "exercises": ["Push-Ups"],
+            "image": "images/pushups.webp"
+        },
+        {
+            "id": "4",
+            "name": "Plank Hold",
+            "difficulty": "Beginner",
+            "duration": "3 minutes",
+            "description": "Engage your core and improve posture.",
+            "exercises": ["Plank Hold"],
+            "image": "images/plank.webp"
+        }
+    ]
+}
