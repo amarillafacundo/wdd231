@@ -1,22 +1,30 @@
 [
     {
-        "title": "Jumping Jacks",
-        "description": "Great for warming up your entire body.",
-        "image": "images/jumping-jacks.webp"
+        "name": "Jumping Jacks",
+        "image": "images/jumping-jacks.webp",
+        "description": "A great warm-up exercise to get your blood flowing.",
+        "difficulty": "Easy",
+        "duration": "30 seconds"
     },
     {
-        "title": "Bodyweight Squats",
-        "description": "Strengthen your legs and glutes without equipment.",
-        "image": "images/squats.webp"
+        "name": "Bodyweight Squats",
+        "image": "images/squats.webp",
+        "description": "Works your legs and core muscles.",
+        "difficulty": "Easy",
+        "duration": "15 reps"
     },
     {
-        "title": "Push-Ups",
-        "description": "Build upper body strength with good form.",
-        "image": "images/push-ups.web"
+        "name": "Push-Ups",
+        "image": "images/pushups.webp",
+        "description": "Strengthens your chest, shoulders, and triceps.",
+        "difficulty": "Medium",
+        "duration": "10 reps"
     },
     {
-        "title": "Plank Hold",
-        "description": "Engage your core and improve posture.",
-        "image": "images/plank.webp"
+        "name": "Plank Hold",
+        "image": "images/plank.webp",
+        "description": "Engages your core and improves stability.",
+        "difficulty": "Medium",
+        "duration": "30 seconds"
     }
 ]

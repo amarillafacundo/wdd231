@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitStart - Contact Us</title>
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="images/workout_home.png" alt="FitStart Logo" style="height: 50px;">
+        </a>
+    
+        <button id="menu-btn" aria-label="Menu">&#9776;</button>
+    </header>
+    
+    <nav id="nav-menu" class="hidden">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="habits.html">Healthy Habits</a></li>
+            <li><a href="form.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Have a question or just want to say hello? Fill out the form below!</p>
+
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="form-message" style="display:none; color:green; margin-top:1rem;">Thanks for contacting us! We'll get
+                back to you soon.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 <span class="site-title">FitStart</span></p>
+    </footer>
+
+    <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
