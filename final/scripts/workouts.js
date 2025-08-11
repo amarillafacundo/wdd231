@@ -26,7 +26,7 @@ function renderWorkouts(workouts) {
         const workoutCard = document.createElement('div');
         workoutCard.classList.add('workout-card');
         workoutCard.innerHTML = `
-            <img src="${workout.image}" alt="${workout.name}">
+            <img src="${workout.image}" alt="${workout.name}" loading="lazy">
             <h3>${workout.name}</h3>
             <p><strong>Difficulty:</strong> ${workout.difficulty}</p>
             <p><strong>Duration:</strong> ${workout.duration}</p>
