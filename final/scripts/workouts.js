@@ -15,7 +15,7 @@ async function fetchWorkouts() {
 
 // Function to render workout cards
 function renderWorkouts(workouts) {
-    const workoutContainer = document.querySelector('.workout-grid'); // Corrected to use your class name
+    const workoutContainer = document.querySelector('.workout-grid');
     if (!workoutContainer) {
         console.error('Workout grid container not found.');
         return;
