@@ -35,6 +35,105 @@
             "description": "Engage your core and improve posture.",
             "exercises": ["Plank Hold"],
             "image": "images/plank.webp"
+        },
+        {
+            "id": "5",
+            "name": "Lunges",
+            "difficulty": "Beginner",
+            "duration": "8 minutes",
+            "description": "Targets legs and improves balance.",
+            "exercises": ["Lunges"],
+            "image": "images/lunges.webp"
+        },
+        {
+            "id": "6",
+            "name": "Mountain Climbers",
+            "difficulty": "Intermediate",
+            "duration": "6 minutes",
+            "description": "Cardio and core workout in one.",
+            "exercises": ["Mountain Climbers"],
+            "image": "images/mountain-climbers.webp"
+        },
+        {
+            "id": "7",
+            "name": "High Knees",
+            "difficulty": "Beginner",
+            "duration": "4 minutes",
+            "description": "Boosts heart rate and warms up the body.",
+            "exercises": ["High Knees"],
+            "image": "images/high-knees.webp"
+        },
+        {
+            "id": "8",
+            "name": "Bicycle Crunches",
+            "difficulty": "Intermediate",
+            "duration": "6 minutes",
+            "description": "Strengthens the core and obliques.",
+            "exercises": ["Bicycle Crunches"],
+            "image": "images/bicycle-crunches.webp"
+        },
+        {
+            "id": "9",
+            "name": "Wall Sit",
+            "difficulty": "Beginner",
+            "duration": "5 minutes",
+            "description": "Builds leg strength and endurance.",
+            "exercises": ["Wall Sit"],
+            "image": "images/wall-sit.webp"
+        },
+        {
+            "id": "10",
+            "name": "Tricep Dips",
+            "difficulty": "Intermediate",
+            "duration": "7 minutes",
+            "description": "Targets triceps using a chair or bench.",
+            "exercises": ["Tricep Dips"],
+            "image": "images/tricep-dips.webp"
+        },
+        {
+            "id": "11",
+            "name": "Side Plank",
+            "difficulty": "Intermediate",
+            "duration": "4 minutes",
+            "description": "Strengthens obliques and improves stability.",
+            "exercises": ["Side Plank"],
+            "image": "images/side-plank.webp"
+        },
+        {
+            "id": "12",
+            "name": "Standing Calf Raises",
+            "difficulty": "Beginner",
+            "duration": "5 minutes",
+            "description": "Improves calf strength and stability.",
+            "exercises": ["Calf Raises"],
+            "image": "images/calf-raises.webp"
+        },
+        {
+            "id": "13",
+            "name": "Glute Bridges",
+            "difficulty": "Beginner",
+            "duration": "6 minutes",
+            "description": "Strengthens glutes and lower back.",
+            "exercises": ["Glute Bridges"],
+            "image": "images/glute-bridges.webp"
+        },
+        {
+            "id": "14",
+            "name": "Arm Circles",
+            "difficulty": "Beginner",
+            "duration": "3 minutes",
+            "description": "Warms up shoulders and arms.",
+            "exercises": ["Arm Circles"],
+            "image": "images/arm-circles.webp"
+        },
+        {
+            "id": "15",
+            "name": "Burpees",
+            "difficulty": "Advanced",
+            "duration": "8 minutes",
+            "description": "Full-body cardio and strength exercise.",
+            "exercises": ["Burpees"],
+            "image": "images/burpees.webp"
         }
     ]
 }
