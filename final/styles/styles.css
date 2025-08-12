@@ -421,31 +421,3 @@ form button:hover {
     .habit-grid {
         grid-template-columns: repeat(4, 1fr);
     }
-
-            
-    .contact-section {
-        max-width: 800px;
-        padding: 2rem;
-    }
-        
-    form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-    }
-        
-    form label {
-        grid-column: span 2;
-    }
-        
-    form input,
-    form textarea {
-        grid-column: span 2;
-    }
-        
-    form button {
-        grid-column: span 2;
-        justify-self: start;
-    }
-}
-
