@@ -631,7 +631,6 @@ form input[type="submit"]:hover {
 .discover-main h1 {
     grid-area: title;
     text-align: center;
-    /* Example: center the title */
 }
 
 .sidebar {
