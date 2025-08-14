@@ -31,23 +31,32 @@ async function fetchInterestItems() {
             const card = document.createElement('div');
             card.classList.add('interest-card');
 
+            const h2 = document.createElement('h2');
+            h2.textContent = item.title;
+
+            const figure = document.createElement('figure');
             const img = document.createElement('img');
             img.src = item.image;
-            img.alt = item.name;
+            img.alt = item.alt;
             img.loading = "lazy";
             img.width = 400;
             img.height = 300;
+            figure.appendChild(img);
 
-
-            const title = document.createElement('h3');
-            title.textContent = item.name;
+            const address = document.createElement('address');
+            address.textContent = item.address; // Assuming "address" field is now in JSON
 
             const desc = document.createElement('p');
             desc.textContent = item.description;
 
-            card.appendChild(img);
-            card.appendChild(title);
+            const button = document.createElement('button');
+            button.textContent = "Learn More";
+
+            card.appendChild(h2);
+            card.appendChild(figure);
+            card.appendChild(address);
             card.appendChild(desc);
+            card.appendChild(button);
             grid.appendChild(card);
         });
     } catch (error) {

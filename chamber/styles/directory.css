@@ -616,3 +616,57 @@ form input[type="submit"]:hover {
     margin: 0.5rem 1rem 1rem;
     color: #555;
 }
+
+
+/* Default layout for small screens */
+.discover-main {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "sidebar"
+        "interests";
+    gap: 20px;
+}
+
+.discover-main h1 {
+    grid-area: title;
+    text-align: center;
+    /* Example: center the title */
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.interest-content {
+    grid-area: interests;
+}
+
+/* Medium screens */
+@media screen and (min-width: 641px) {
+    .discover-main {
+        grid-template-areas:
+            "title title"
+            "sidebar interests";
+        grid-template-columns: 1fr 3fr;
+    }
+    .interest-card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .interest-card img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1025px) {
+    .discover-main {
+        grid-template-columns: 1fr 4fr;
+    }
+}
+
+nav .active {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}

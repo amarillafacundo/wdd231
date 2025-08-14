@@ -1,48 +1,56 @@
 [
     {
         "title": "Santa Fe Plaza 25 de Mayo",
+        "address": "San Martín 1500, S3000 Santa Fe",
         "image": "images/plaza_santafe.webp",
         "description": "Historic plaza in the heart of downtown Santa Fe.",
         "alt": "Santa Fe Plaza"
     },
     {
         "title": "Santa Fe Suspension Bridge",
+        "address": "Av Boulevard Galvez 6900, S3000 Santa Fe",
         "image": "images/suspension_bridge.webp",
         "description": "Historic suspension bridge of the city of Santa Fe",
         "alt": "Santa Fe Suspension Bridge"
     },
     {
         "title": "The Molino Cultural Factory",
+        "address": "Av Boulevard Galvez 3260, S3000 Santa Fe",
         "image": "images/the_molino.webp",
         "description": "Former flour mill with interactive art, culture, and science exhibits and activities.",
         "alt": "The Molino Cultural Factory"
     },
     {
         "title": "The Santa Fe Shopping Mall",
+        "address": "Av Los Cuatro Jefes 1900, S3000 Santa Fe",
         "image": "images/the_shopping.webp",
         "description": "This shopping center is located in a central area, on Dock 1 of the Port of Santa Fe, and is characterized by offering exclusive stores from major brands.",
         "alt": "The Santa Fe Shopping mall"
     },
     {
         "title": "Brigadier General Estanislao López Stadium",
+        "address": "Av. Juan Jose Paso 1600, S3000 Santa Fe",
         "image": "images/stadium_soccer.webp",
         "description": "The Brigadier General Estanislao López Stadium, also known as El Cementerio de los Elefantes, is the home stadium of Club Atlético Colón in Santa Fe, Argentina.",
         "alt": "Brigadier General Estanislao López Stadium"
     },
     {
         "title": "Monument to the Argentine Flag",
+        "address": "Av Galicia 8900, S3000 Rosario",
         "image": "images/argentine_flag.webp",
         "description": "Monument to the Argentine Flag",
         "alt": "The Monumento Histórico Nacional a la Bandera, located in Rosario, Argentina, is a large monument dedicated to the Argentine flag."
     },
     {
         "title": "Rosario Plaza Independencia",
+        "address": "Independecia 2065, S3000 Santa Fe",
         "image": "images/plaza_rosario.webp",
         "description": "Independence Park is a large green space in the heart of Rosario, Argentina. It's known for its lake, where you can take boat rides, and for its green areas, ideal for walking and enjoying the outdoors.",
         "alt": "Parque Independencia Rosario"
     },
     {
         "title": "Universidad del Litoral",
+        "address": "Ruta NAcional N168 S3000 Santa Fe",
         "image": "images/university_campus.webp",
         "description": "The Universidad Nacional del Litoral is one of the most important public universities in the Argentine Republic.",
         "alt": "Universidad del Litoral."
