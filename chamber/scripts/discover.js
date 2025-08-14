@@ -44,7 +44,7 @@ async function fetchInterestItems() {
             figure.appendChild(img);
 
             const address = document.createElement('address');
-            address.textContent = item.address; // Assuming "address" field is now in JSON
+            address.textContent = item.address;
 
             const desc = document.createElement('p');
             desc.textContent = item.description;
